@@ -4,7 +4,7 @@ package com.jm.thegame.model;
  * Created by Jan Michael Raymundo on 9/20/16.<br> Copyright © 2016 KlabCyscorpions. All rights reserved.
  */
 
-public class BaseStats {
+class BaseStats {
     private final int mHp;
 
     private final int mAtk;
@@ -12,8 +12,6 @@ public class BaseStats {
     private final int mDef;
 
     private final int mRec;
-
-    private BaseStats mInstance;
 
     private BaseStats(int hp, int atk, int def, int rec) {
         mHp = hp;
